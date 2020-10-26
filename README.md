@@ -11,3 +11,7 @@ Reference this [tutorial](https://www.odoo.com/documentation/13.0/howtos/backend
       | - pt_BR.po # Brazilian Portuguese translation
       | (...)
 ```
+
+# Qweb
+
+Qweb is an XML templating engine (a software designed to combine templates with a data model to produce result documents) used by Odoo

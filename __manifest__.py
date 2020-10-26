@@ -33,8 +33,9 @@
         'views/templates.xml',
         'views/openacademy.xml',
         'views/partner.xml',
+        'reports/reports.xml',
         'data/openacademy_data.xml',
-        'data/partner_data.xml'
+        'data/partner_data.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
