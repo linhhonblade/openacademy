@@ -21,7 +21,7 @@
     'version': '0.2',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'board'],
 
     # always loaded
     'data': [
@@ -36,6 +36,7 @@
         'reports/reports.xml',
         'data/openacademy_data.xml',
         'data/partner_data.xml',
+        'views/session_board.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

@@ -1,4 +1,13 @@
+<?xml version="1.0"?>
 <odoo>
+  <!--
+    Because reports are standard web pages, they are available through a URL and
+    output parameters can be manipulated through this URL, for instance the HTML version
+    of the Session Report is available through
+    http://localhost:8069/report/html/openacademy.report_session_view/1
+    and the PDF version through
+    http://localhost:8069/report/pdf/openacademy.report_session_view/1.
+  -->
 
   <report id="report_session" model="openacademy.session" string="Session Report" name="openacademy.report_session_view"
     file="openacademy.report_session" report_type="qweb-pdf" />
