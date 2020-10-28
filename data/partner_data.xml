@@ -1,11 +1,20 @@
 <odoo>
   <data>
+    <!-- Partner categories -->
     <record id="teacher1" model="res.partner.category">
       <field name="name">Teacher / Level 1</field>
     </record>
 
     <record id="teacher2" model="res.partner.category">
       <field name="name">Teacher / Level 2</field>
+    </record>
+
+    <!-- Partner -->
+    <record id="partner-ichi" model="res.partner">
+      <field name="name">Ichimoku Ren</field>
+    </record>
+    <record id="partner-ichi" model="res.partner">
+      <field name="name">Higanbana</field>
     </record>
   </data>
 </odoo>

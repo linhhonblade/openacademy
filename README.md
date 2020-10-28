@@ -15,3 +15,12 @@ Reference this [tutorial](https://www.odoo.com/documentation/13.0/howtos/backend
 # Qweb
 
 Qweb is an XML templating engine (a software designed to combine templates with a data model to produce result documents) used by Odoo
+
+# Working with database
+
+changes in:
+
+   - XML -> update module
+   - Python -> restart server
+   - JS,CSS -> reload webpage
+
