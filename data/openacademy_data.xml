@@ -1,5 +1,5 @@
 <odoo>
-  <data>
+  <data noupdate="1">
     <record model="openacademy.course" id="course0">
       <field name="name">Course 0</field>
       <field name="description">Course 0's description
